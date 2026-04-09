@@ -427,7 +427,7 @@
 
   // Form submit
   form.addEventListener('submit', (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     // Validate all fields
     const isValid = Object.keys(fields).map(name => validateField(name)).every(Boolean);
